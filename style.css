@@ -1,2 +1,17 @@
 /* do not write on the margin */
-
+.box{
+        color: blue;
+        ;
+      }
+      .box1 > b{
+        color: brown;
+      }
+      .box1 > p{
+        color: pink;
+      }
+      .box1 > h6{
+        color: rgb(22, 163, 199);
+        background-color: black;
+        font-size: 40px;
+        padding: 10px;
+      }
