@@ -1,4 +1,9 @@
 /* do not write on the margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .box{
         color: blue;
         ;
@@ -16,11 +21,16 @@
         padding: 10px;
       }
       #div1{
-       /* background-color: cornflowerblue; */
-        padding-left: 50px;
+        background-color: cornflowerblue;
+        /*padding-left: 50px;
         padding-right: 50px;
         padding-bottom: 50px;
-        padding-top: 50px;
+        padding-top: 50px;*/
         border: 100%;
-        background-image: ./image/1.jpg;
+        font-size: 30px;
+        border-radius: 20px;
+        border: 2px solid red;
+        color: whitesmoke;
+        padding: 50px;
+
       }
